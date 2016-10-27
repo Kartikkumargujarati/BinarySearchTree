@@ -187,7 +187,8 @@ public class bst {
         }catch (NumberFormatException nfe) {
             System.err.println("Incorrect format");
         }
-			long endTime = System.nanoTime();
+		
+		long endTime = System.nanoTime();
 		long duration = endTime - startTime;
 		double seconds = (double)duration / 1000000000.0;
 		System.out.println("Duration(s)= " + seconds);
